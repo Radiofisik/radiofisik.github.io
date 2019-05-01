@@ -1,4 +1,4 @@
-name:               "Radiofisik's homepage"
+name:               "Radiofisik"
 description:        "my knowledge base"
 
 url:                ""
@@ -9,12 +9,11 @@ twitter:            "radiofisik"
 email:              "mail@radiofisik.ru"
 github:             "radiofisik"
 pinterest:          "0liks8jl05hcpyb1chvg0b9teugvwf"
-linkedin:           ""
-facebook:           ""
+
 
 disqus_shortname:   ""
 
-background:         "http://apple.wallpapersfine.com/wallpapers/original/1242x2208/w-5273.jpg"
+background:         "http://www.hdiphonewallpapers.us/phone-wallpapers/iphone-6s-wallpaper-1-1080x1920/iphone-6s-wallpaper-HD-320o6thl-1080x1920.jpg"
 
 paginate:           5
 paginate_path:      "/page:num/"
@@ -25,10 +24,8 @@ permalink:          /:year/:month/:day/:title/
 markdown:           kramdown
 
 nav:
-  - name:           "About"
-    href:           "/about"
-  - name:           "Download"
-    href:           "/releases"
+#  - name:           "About"
+#    href:           "/about"
 
 sass:
   style:            :compressed

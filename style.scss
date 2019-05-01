@@ -309,13 +309,14 @@ tbody tr:nth-child(odd) th {
     background-repeat:no-repeat;
     background-size: cover; 
     background-position:center;
-    .img-circle {
-        height: auto;
-        width: 20%;
-        border-radius: 50%;
-        display: block;
-        margin: 1rem 1rem 1rem;
-        display: inline;
+    .img-avatar {
+        height: 70px;
+        width: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30%;
+        margin-bottom: 20px;
+
     }
     h3 {
         height: auto;
