@@ -365,12 +365,14 @@ tbody tr:nth-child(odd) th {
             margin-left: 24%;
         }
         .social {
+            margin-bottom: 5px;
             position: absolute;
             bottom: 0;
             margin-left: 2vw;
             a {
                 padding: 0;
                 margin-left: 0;
+                color: #cccccc;
             }
         }
     }
