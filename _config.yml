@@ -47,3 +47,4 @@ defaults:
 
 plugins:
   - jekyll-paginate
+  - jekyll-postfiles
