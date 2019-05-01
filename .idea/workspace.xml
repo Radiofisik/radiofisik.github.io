@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e60ab686-18a4-475c-90aa-94748e4c98ca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/img/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/img/background.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -40,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="309" column="17" lean-forward="true" selection-start-line="309" selection-start-column="17" selection-end-line="309" selection-end-column="17" />
+            <state relative-caret-position="253">
+              <caret line="339" column="23" selection-start-line="339" selection-start-column="23" selection-end-line="339" selection-end-column="23" />
               <folding>
                 <element signature="e#6336#6802#0" />
                 <element signature="e#6815#6861#0" />
@@ -146,8 +145,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="163" />
-    <option name="y" value="159" />
+    <option name="x" value="502" />
+    <option name="y" value="140" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -220,15 +219,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556704754112</updated>
-      <workItem from="1556704757632" duration="20421000" />
+      <workItem from="1556704757632" duration="21432000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20421000" />
+    <option name="totallyTimeSpent" value="21432000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="163" y="159" width="1400" height="1000" extended-state="0" />
+    <frame x="502" y="140" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -434,8 +433,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="309" column="17" lean-forward="true" selection-start-line="309" selection-start-column="17" selection-end-line="309" selection-end-column="17" />
+        <state relative-caret-position="253">
+          <caret line="339" column="23" selection-start-line="339" selection-start-column="23" selection-end-line="339" selection-end-column="23" />
           <folding>
             <element signature="e#6336#6802#0" />
             <element signature="e#6815#6861#0" />

@@ -305,6 +305,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .profile {
+    display: none;
     padding: 2%;
     background-repeat: repeat round;
     .img-avatar {
@@ -336,6 +337,7 @@ tbody tr:nth-child(odd) th {
         width: 100%;
     }
     @media (min-width: 38em) {
+        display: block;
         position: fixed;
         width: 20%;
         height: 100%;
@@ -381,7 +383,7 @@ tbody tr:nth-child(odd) th {
     padding: 1.4rem 0.8rem;
     margin-left: auto;
     margin-right: auto;
-    overflow: auto;
+    //overflow: auto;
     @media (min-width: 38rem) {
         margin-top: 0;
         margin-left: 20%;
