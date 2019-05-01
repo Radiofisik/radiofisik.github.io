@@ -11,9 +11,9 @@ github:             "radiofisik"
 pinterest:          "0liks8jl05hcpyb1chvg0b9teugvwf"
 
 
-disqus_shortname:   ""
+disqus_shortname:   "radiofisik-ru-1.disqus.com"
 
-background:         "http://www.hdiphonewallpapers.us/phone-wallpapers/iphone-6s-wallpaper-1-1080x1920/iphone-6s-wallpaper-HD-320o6thl-1080x1920.jpg"
+background:         "/resources/img/background.jpg"
 
 paginate:           5
 paginate_path:      "/page:num/"
@@ -22,6 +22,7 @@ baseurl:            ""
 permalink:          /:year/:month/:day/:title/
 
 markdown:           kramdown
+highlighter:        rouge
 
 nav:
 #  - name:           "About"
@@ -44,5 +45,5 @@ defaults:
     values:
       layout:       "post"
 
-gems:
+plugins:
   - jekyll-paginate
