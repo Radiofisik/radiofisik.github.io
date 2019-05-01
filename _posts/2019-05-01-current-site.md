@@ -17,5 +17,5 @@ jekyll serve
 
 Уменьшил размер фоновой картинки сервисом <https://www.richardwestenra.com/repeater/>
 
-
+Настроил возможность хранения картинок вместе с самим файлом с помощью плагина <https://nhoizey.github.io/jekyll-postfiles/> 
 
