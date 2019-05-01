@@ -306,9 +306,7 @@ tbody tr:nth-child(odd) th {
 
 .profile {
     padding: 2%;
-    background-repeat:no-repeat;
-    background-size: cover; 
-    background-position:center;
+    background-repeat: repeat round;
     .img-avatar {
         height: 70px;
         width: 70px;

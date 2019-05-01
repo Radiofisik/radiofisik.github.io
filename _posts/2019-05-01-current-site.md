@@ -15,3 +15,7 @@ jekyll serve
 
 Подключил подсветку синтаксиса native из репозитория <https://github.com/richleland/pygments-css> по статье <https://mycyberuniverse.com/ru/syntax-highlighting-jekyll.html>
 
+Уменьшил размер фоновой картинки сервисом <https://www.richardwestenra.com/repeater/>
+
+
+
