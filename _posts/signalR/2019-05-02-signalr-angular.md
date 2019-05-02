@@ -108,7 +108,7 @@ dotnet add package Swashbuckle.AspNetCore
     });
 ```
 
-```
+```c#
  // Enable middleware to serve generated Swagger as a JSON endpoint.
     app.UseSwagger();
 
@@ -190,7 +190,10 @@ export class AppComponent implements OnInit {
 
 > Получившийся проект можно загрузить по ссылке https://github.com/Radiofisik/SignalRAngular.git
 
+
+
 При написании использованы материалы:
+
 - <https://www.youtube.com/watch?v=R3UJjSAH6bM>
 - <https://code-maze.com/netcore-signalr-angular/>
 - <https://habr.com/ru/post/338490/>
