@@ -51,4 +51,5 @@ plugins:
   - jekyll-paginate
 
 destination: result
+keep_files: ["*"]
 
