@@ -46,5 +46,6 @@ defaults:
       layout:       "post"
 
 plugins:
-  - jekyll-paginate
   - jekyll-postfiles
+  - jekyll-paginate
+
