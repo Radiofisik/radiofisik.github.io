@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Шпаргалка по docker</title>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+    <link href="/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/native.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for Radiofisik" href="/feed.xml" />
+</head>
+
+
+<body class="preload">
+    <div class="top"></div>
+    <div class="profile" style="background-image: url(/resources/img/background.jpg);">
+        <a href="/"><img src="//www.gravatar.com/avatar/ddf1a8cb93900b0cb7b86d96663a54d4?s=100" class="img-avatar" /></a>
+        <h3> Radiofisik</h3>
+        <p>my knowledge base</p>
+        <ul class="social">
+            
+            <a type="button" href="//github.com/radiofisik">
+                <i class="fa fa-github"></i>
+            </a>
+             
+            <a type="button" href="//twitter.com/radiofisik39">
+                <i class="fa fa-twitter"></i>
+            </a>
+              
+            <a type="button" href="//pinterest.com/0liks8jl05hcpyb1chvg0b9teugvwf">
+                <i class="fa fa-pinterest"></i>
+            </a>
+              
+            <a type="button" href="//vk.com/id3171419">
+                <i class="fa fa-vk"></i>
+            </a>
+            
+        </ul>
+    </div>
+    <div class="posts">
+        <div class="content post">
+  <h1 class="post-title">Шпаргалка по docker</h1>
+  <div class="post-date">
+    <time>01 May 2019</time>
+  </div>
+  <p><code class="highlighter-rouge">docker ps -a</code> - shows all docker processes including shutted down</p>
+
+<p><code class="highlighter-rouge">docker inspect container_name_or_id</code></p>
+
+<p>Часто логи начинают занимать много места, для проверки служит команда</p>
+
+<p><code class="highlighter-rouge">du -ch /var/lib/docker/containers/*/*-json.log | grep total</code></p>
+
+<p>Почистить можно с помощью команды</p>
+
+<p><code class="highlighter-rouge">truncate -s 0 path_to_log</code></p>
+
+<p>Не по докеру но не менее полезно преобразование путей из win в lin</p>
+
+<p><code class="highlighter-rouge">  cd "$(cygpath "C:\Users\Aleksandr\Desktop\docker-compose-master\example1")"</code></p>
+
+
+</div>
+
+  
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+var disqus_shortname = 'radiofisik-ru';
+var disqus_identifier = '/2019/05/01/docker-cheetsheet/';
+
+(function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+
+
+    </div>
+</body>
+<script type="text/javascript">
+    window.onload = function(){
+        document.getElementsByTagName("BODY")[0].classList.remove("preload");
+    }
+</script>
+</html>
