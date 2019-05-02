@@ -193,7 +193,6 @@ export class AppComponent implements OnInit {
 
 
 При написании использованы материалы:
-
 - <https://www.youtube.com/watch?v=R3UJjSAH6bM>
 - <https://code-maze.com/netcore-signalr-angular/>
 - <https://habr.com/ru/post/338490/>
