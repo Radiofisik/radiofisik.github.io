@@ -50,3 +50,5 @@ plugins:
   - jekyll-postfiles
   - jekyll-paginate
 
+destination: result
+
