@@ -19,3 +19,4 @@ jekyll serve
 
 Настроил возможность хранения картинок вместе с самим файлом с помощью плагина <https://nhoizey.github.io/jekyll-postfiles/> 
 
+Добавил favicon с помощью сервиса <http://www.xiconeditor.com/>
