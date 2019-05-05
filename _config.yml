@@ -49,6 +49,7 @@ defaults:
 plugins:
   - jekyll-postfiles
   - jekyll-paginate
+  - jekyll-sitemap
 
 
 
