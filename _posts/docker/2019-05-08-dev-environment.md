@@ -149,3 +149,15 @@ prj pull
 ...
 ```
 
+## Полезные алиасы
+
+Для создания небольших проектов удобно использовать 
+
+```bash
+githubc=mkdir $1 && cd $1 && touch readme.md && git init && git add . && git commit -m "initial" &&curl -H "Authorization: token YOURTOKEN" -H "Content-Type: application/json" https://api.github.com/user/repos -d "{\"name\": \"$1\"}" && git remote add origin https://github.com/Radiofisik/$1.git && git push --set-upstream origin master
+
+githubu=curl -H "Authorization: token YOURTOKEN" -H "Content-Type: application/json" https://api.github.com/user/repos -d "{\"name\": \"$1\"}" && git remote add origin https://github.com/Radiofisik/$1.git && git push --set-upstream origin master
+```
+
+так можно создавать репозитории не заходя на github.
+
