@@ -290,7 +290,7 @@ Swagger поддерживает аутентификацию, для того �
 
 и
 
-```
+```c#
  var baseUrl = "/api/app";
 
             app.UseSwagger(c=>c.PreSerializeFilters.Add((doc, req) =>
