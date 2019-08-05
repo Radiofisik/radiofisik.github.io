@@ -5,7 +5,7 @@ description: SignalR, MVC, Swagger, CORS
 
 Создадим новый проект Visual Studio через команду `dotnet new` набрав ее без параметров получим список возможных шаблонов. Будем использовать самый простой.
 
-```
+```bash
 dotnet new web
 ```
 
@@ -13,38 +13,38 @@ dotnet new web
 
 Установим nuget пакеты
 
-```
+```bash
 dotnet add package Microsoft.AspNetCore.SignalR
 ```
 
 В Startup.cs зарегистрируем сервис
 
 ```c#
-  public void ConfigureServices(IServiceCollection services)
-        {
-            services.AddSignalR();
-        }
+public void ConfigureServices(IServiceCollection services)
+{
+    services.AddSignalR();
+}
 ```
 
 Создадим класс хаба
 
 ```c#
-    public class MessageHub: Hub
-    {
+public class MessageHub: Hub
+{
         public Task Send(string message)
         {
             return Clients.All.SendAsync("Send", message);
         }
-    }
+}
 ```
 
 Зарегистрируем SignalR middleware
 
 ```c#
- public void Configure(IApplicationBuilder app, IHostingEnvironment env)
-        {
-            app.UseSignalR(routes => { routes.MapHub<MessageHub>("/message"); });
-        }
+public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+{
+    app.UseSignalR(routes => { routes.MapHub<MessageHub>("/message"); });
+}
 ```
 
 ## MVC
@@ -97,7 +97,7 @@ app.UseMvc(); // в Configure
 
 Для удобства запуска метода контроллера добавим swagger через Swashbuckle 
 
-```
+```bash
 dotnet add package Swashbuckle.AspNetCore
 ```
 
@@ -108,7 +108,7 @@ dotnet add package Swashbuckle.AspNetCore
     });
 ```
 
-```c#
+```с#
  // Enable middleware to serve generated Swagger as a JSON endpoint.
     app.UseSwagger();
 
@@ -188,13 +188,51 @@ export class AppComponent implements OnInit {
 
 ![resultconsole](resultconsole.png)
 
-> Получившийся проект можно загрузить по ссылке https://github.com/Radiofisik/SignalRAngular.git
+# Работа с группами
 
+SignalR поддерживает группы, соответственно можно отправлять сообщение на группу
 
+```c#
+ _hubContext.Clients.Group("groupName").SendCoreAsync("method", new[] { "hello from server to group" });
+```
 
-При написании использованы материалы:
+Для того чтобы добавить клиента в группу сделаем метод в хабе
+
+```c#
+public async Task Subscribe(string scope)
+{
+	await Groups.AddToGroupAsync(Context.ConnectionId, scope);
+}
+public async Task Unsubscribe(string scope)
+{
+	await Groups.RemoveFromGroupAsync(Context.ConnectionId, scope);
+}
+```
+
+На клиенте, с реализаций реконнекта, это выглядит так
+
+```typescript
+  const connect = (conn) => {
+      connection.start()
+        .then(() => connection.invoke('subscribe', 'groupName'))
+        .catch(err => {
+          console.log('Error while starting connection: ' + err);
+          setTimeout(() => connect(conn), 5000);
+        });
+    };
+
+    connect(connection);
+    connection.onclose((e) => connect(connection));
+```
+
+> Получившийся проект можно загрузить по ссылке 
+
+При написании использованы материалы
+
 - <https://www.youtube.com/watch?v=R3UJjSAH6bM>
+
 - <https://code-maze.com/netcore-signalr-angular/>
+
 - <https://habr.com/ru/post/338490/>
 
   
