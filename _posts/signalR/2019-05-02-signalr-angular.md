@@ -91,8 +91,6 @@ app.UseMvc(); // в Configure
     }
 ```
 
-
-
 ## Swashbuckle
 
 Для удобства запуска метода контроллера добавим swagger через Swashbuckle 
@@ -108,7 +106,7 @@ dotnet add package Swashbuckle.AspNetCore
     });
 ```
 
-```с#
+```c#
  // Enable middleware to serve generated Swagger as a JSON endpoint.
     app.UseSwagger();
 
@@ -228,11 +226,6 @@ public async Task Unsubscribe(string scope)
 > Получившийся проект можно загрузить по ссылке 
 
 При написании использованы материалы
-
 - <https://www.youtube.com/watch?v=R3UJjSAH6bM>
-
 - <https://code-maze.com/netcore-signalr-angular/>
-
-- <https://habr.com/ru/post/338490/>
-
-  
+- <https://habr.com/ru/post/338490/>  
