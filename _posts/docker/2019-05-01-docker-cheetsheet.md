@@ -47,6 +47,8 @@ cd "$(cygpath "C:\Users\Aleksandr\Desktop\docker-compose-master\example1")"
 
 ```bash
 docker stop $(docker ps -aq)
+#избранно
+docker stop $(docker ps | grep radiofisik| awk '{print $1}')
 ```
 
 Удаление всех контейнеров и по фильтру
