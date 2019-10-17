@@ -124,3 +124,16 @@ docker-machine rm default
 docker-machine create -d virtualbox --virtualbox-disk-size "100000" default
 ```
 
+## Мониторинг ресурсов
+
+```bash
+ docker ps -q | xargs  docker stats --no-stream
+```
+
+## Backup
+
+Резервное копирование вольюмов
+
+```bash
+docker run --rm `docker volume list -q | egrep -v '^.{64}$'| awk '{print "-v " $1 ":/mnt/" $1}'` alpine tar -C /mnt -cj . > data-volumes.tar.bz2
+```
