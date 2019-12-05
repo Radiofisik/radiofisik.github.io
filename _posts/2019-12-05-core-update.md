@@ -94,3 +94,19 @@ services.AddMvcCore()
             });
 ```
 
+Добавлять параметр в хедер через фильтр тоже стало несколько сложнее
+
+```c#
+ operation.Parameters.Add(new OpenApiParameter()
+            {
+                Name = "X-User-Param",
+                Description = "param description",
+                In = ParameterLocation.Header,
+                Required = false,
+                Schema = new OpenApiSchema()
+                {
+                    Type = "string"
+                }
+            });
+```
+
