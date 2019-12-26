@@ -110,3 +110,45 @@ services.AddMvcCore()
             });
 ```
 
+## MVC
+
+Для работы ` app.UseMvc();` теперь необходимо 
+
+```c#
+services.AddMvcCore()....   
+.AddMvcOptions(options =>
+                    {
+                        options.EnableEndpointRouting = false;
+                    })
+```
+
+## EF core
+
+В EF core много оптимизаций из-за которых часто возникает ситуация когда запрос не может быть преобразован в SQL и при этом возникает ошибка.
+
+Также изменилась конфигурация для 
+
+```c#
+  builder.OwnsMany(
+                x => x.Posts,
+                cfg =>
+                {
+                    cfg.HasForeignKey(x => x.BlogId);
+                    cfg.HasKey(x => new {x.BlogId, x.PostId});
+                    cfg.ToTable($@"{nameof(Posts)}");
+                }
+```
+
+на
+
+```
+builder.OwnsMany(
+                x => x.Posts,
+                cfg =>
+                {
+                    cfg.WithOwner().HasForeignKey(x => x.BlogId);
+                    cfg.HasKey(x => new {x.BlogId, x.PostId});
+                    cfg.ToTable($@"{nameof(Posts)}");
+                }
+```
+
