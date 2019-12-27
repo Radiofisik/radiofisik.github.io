@@ -122,6 +122,22 @@ services.AddMvcCore()....
                     })
 ```
 
+если используются embedded хранение вьюшек подключать это надо по-другому
+
+```c#
+  .AddRazorRuntimeCompilation(options =>
+                {
+                    //Create an EmbeddedFileProvider for that assembly
+                    var embeddedFileProvider = new EmbeddedFileProvider(
+                        typeof(MvcAssemblyMarker).Assembly,
+                        typeof(MvcAssemblyMarker).Namespace
+                    );
+                    options.FileProviders.Add(embeddedFileProvider);
+                })
+```
+
+
+
 ## EF core
 
 В EF core много оптимизаций из-за которых часто возникает ситуация когда запрос не может быть преобразован в SQL и при этом возникает ошибка.
@@ -141,7 +157,7 @@ services.AddMvcCore()....
 
 на
 
-```
+```c#
 builder.OwnsMany(
                 x => x.Posts,
                 cfg =>
@@ -150,5 +166,14 @@ builder.OwnsMany(
                     cfg.HasKey(x => new {x.BlogId, x.PostId});
                     cfg.ToTable($@"{nameof(Posts)}");
                 }
+```
+
+## SignalR
+
+Для того чтобы SignalR нормально десериализовал необходимо добавить пакет `Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson` на сервере надо добавить
+
+```c#
+services.AddSignalR()
+        .AddNewtonsoftJsonProtocol();
 ```
 
