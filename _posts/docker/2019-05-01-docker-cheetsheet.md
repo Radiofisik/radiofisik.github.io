@@ -128,6 +128,7 @@ docker-machine create -d virtualbox --virtualbox-disk-size "100000" default
 
 ```bash
  docker ps -q | xargs  docker stats --no-stream
+ docker system df -v
 ```
 
 ## Backup
