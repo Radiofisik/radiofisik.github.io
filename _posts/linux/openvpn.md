@@ -7,6 +7,7 @@ push "route 192.168.1.0 255.255.255.0"
 server 172.16.0.0 255.255.255.0
 route 172.16.0.0 255.255.255.0
 route 192.168.2.0 255.255.255.0
+route 192.168.0.0 255.255.255.0
 
 dev tun0
 proto udp
@@ -15,7 +16,6 @@ port 1194
 keepalive 15 60
 daemon
 verb 3
-comp-lzo no
 
 client-to-client
 duplicate-cn  
@@ -23,7 +23,7 @@ duplicate-cn
 auth md5
 #cipher AES-128-CBC
 cipher bf-cbc
-comp-lzo no
+comp-lzo
 
 mtu-test
 
@@ -38,6 +38,15 @@ key /tmp/openvpn/key.pem
 # management parameter allows DD-WRT\s OpenVPN Status web page to access the server\s management port
 # port must be 5001 for scripts embedded in firmware to work
 management localhost 5001
+
+client-config-dir /jffs/openvpn/ccd
+ifconfig-pool-persist /jffs/openvpn/ccd/ipp.txt
+
+#fixes performance issues
+sndbuf 393216
+rcvbuf 393216
+push "sndbuf 393216"
+push "rcvbuf 393216"
 
 ```
 
@@ -84,7 +93,6 @@ ifconfig-pool-persist /jffs/openvpn/ipp.txt
 ```bash
 client
 dev tun
-topology subnet
 proto udp
 remote www.radiofisik.ru 1194
 resolv-retry infinite
@@ -105,9 +113,11 @@ cipher bf-cbc
 comp-lzo
 
 mtu-test
+
+tun-mtu 8192
 mssfix 1300
 
 verb 3
-
+topology subnet
 ```
 
