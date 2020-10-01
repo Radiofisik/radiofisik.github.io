@@ -1,6 +1,6 @@
 ---
 title: Fulltext Search
-description: поиск с весами на postgresql с EFCore
+description: полнотекстовый поиск с весами на postgresql с EFCore над несколькими таблицами со связью one to many
 ---
 
 В большинстве руководств по реализации полнотекстового поиска рассматривается простой случай когда все поля для поиска находятся в одной таблице, тогда нет проблем с созданием индекса... Однако жизнь оказывается несколько сложней и в реальной системе как правило данные, по которым нужно искат раскиданы по разным таблицам. Рассмотрим такой случай. Для начала сделаем сущности и контекст, добавим миграцию.
@@ -250,7 +250,7 @@ $$;
 create trigger refresh_search
     after insert or update or delete
     on "Tags"
-    for statement
+    for each row
     execute procedure refresh_search_by_tags();
     
  create index on "ArticleSearch" using gin ("SearchVector");
