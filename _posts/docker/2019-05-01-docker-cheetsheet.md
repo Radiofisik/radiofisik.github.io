@@ -72,6 +72,14 @@ docker rmi $(docker images -q) --force
 docker exec -it container_name /bin/bash
 ```
 
+если нужно выполнить действие он имени пользователя то 
+
+```bash
+docker exec -u root -t -i container_name bash
+```
+
+
+
 ### Список процессов
 
 Бывает полезным посмотреть список процессов в виде
