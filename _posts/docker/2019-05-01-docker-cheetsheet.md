@@ -5,6 +5,7 @@ description: Часто используемые команды. Возника�
 
 ```bash
 docker ps -a - shows all docker processes including shutted down
+docker ps  --format "table {{.ID}}\t{{.Names}}\t{{.Status}}}" | grep Restarting
 ```
 
 ```bash
