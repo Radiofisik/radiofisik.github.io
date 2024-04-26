@@ -147,3 +147,24 @@ docker-machine create -d virtualbox --virtualbox-disk-size "100000" default
 ```bash
 docker run --rm `docker volume list -q | egrep -v '^.{64}$'| awk '{print "-v " $1 ":/mnt/" $1}'` alpine tar -C /mnt -cj . > data-volumes.tar.bz2
 ```
+
+## Docker работа с контекстами
+```bash
+#https://blog.mikesir87.io/2019/08/using-ssh-connections-in-docker-contexts/
+
+docker context list
+
+docker context create proxmox --docker "host=ssh://root@192.168.1.14"
+
+docker context use proxmox 
+docker ps
+
+# OR use the DOCKER_CONTEXT env var
+DOCKER_CONTEXT=proxmox  docker ps
+
+
+#not to enter password
+ssh-copy-id root@192.168.1.14
+```
+
+
