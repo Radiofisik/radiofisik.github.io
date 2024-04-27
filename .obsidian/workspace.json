@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "View.md",
+                "file": "_posts/ML/2024-04-27-LangChain.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "View.md",
+                "file": "_posts/ML/2024-04-27-LangChain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "View.md",
+                "file": "_posts/ML/2024-04-27-LangChain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "View.md"
+                "file": "_posts/ML/2024-04-27-LangChain.md"
               }
             }
           }
@@ -161,12 +161,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2f318f680e017d71",
+  "active": "4cee43c28f6415ae",
   "lastOpenFiles": [
-    "_posts/linux/2021-09-22-bash.md",
+    "_posts/ML/pict/logo.png",
+    "_posts/ML/pict",
+    "_posts/ML/pict/image.png",
+    "_posts/ML/2024-04-27-LangChain.md",
+    "_posts/stm/2019-11-12-stm-hello.md",
+    "_posts/ML",
+    "_posts/stm/pict/Pasted image 20240427091400.png",
+    "_posts/2019-07-04-logging.md",
     "View.md",
-    "Excalidraw/Drawing 2024-04-27 07.43.27.excalidraw.md",
     "_posts/docker/2019-05-08-dev-environment.md",
+    "_posts/linux/2021-09-22-bash.md",
+    "Excalidraw/Drawing 2024-04-27 07.43.27.excalidraw.md",
     "Excalidraw",
     "_posts/docker/2019-05-01-docker-cheetsheet.md",
     "_posts/2021-08-09-integration-tests.md",
@@ -175,13 +183,11 @@
     "about.md",
     "404.md",
     "Pasted image 20240426132147.png",
-    "_posts/stm/2019-11-12-stm-hello.md",
     "_posts/signalR/2019-05-02-signalr-angular.md",
     "_posts/linux/2019-08-24-linux.md",
     "_posts/drafts/sql.md",
     "2019/05/02/signalr-angular/resultconsole.png",
     "2019/05/02/signalr-angular/error.png",
-    "_posts/angular/angular.md",
-    "_posts/2019-07-04-logging.md"
+    "_posts/angular/angular.md"
   ]
 }
