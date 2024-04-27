@@ -23,11 +23,9 @@
             "id": "2f318f680e017d71",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "_posts/ML/2024-04-27-LangChain.md",
-                "mode": "source",
-                "source": false
+                "file": "_site/2024/04/27/LangChain/pict/logo.png"
               }
             }
           }
@@ -98,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/ML/2024-04-27-LangChain.md",
+                "file": "_site/2024/04/27/LangChain/pict/logo.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/ML/2024-04-27-LangChain.md",
+                "file": "_site/2024/04/27/LangChain/pict/logo.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/ML/2024-04-27-LangChain.md"
+                "file": "_site/2024/04/27/LangChain/pict/logo.png"
               }
             }
           }
@@ -161,33 +159,47 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4cee43c28f6415ae",
+  "active": "2f318f680e017d71",
   "lastOpenFiles": [
-    "_posts/ML/pict/logo.png",
-    "_posts/ML/pict",
-    "_posts/ML/pict/image.png",
+    "404.md",
+    "_site/2021/09/22/bash/openvpn.md",
+    "_site/2021/09/22/bash/index.html",
+    "_site/2021/07/19/efinside/tables.png",
+    "_site/2021/07/19/efinside/index.html",
+    "_site/2021/08/09/integration-tests/index.html",
+    "_site/2021/07/24/expression-parser/index.html",
+    "_site/2021/09/22/bash",
+    "_site/2021/07/19/efinside",
+    "_site/2021/08/09/integration-tests",
+    "_site/2021/07/24/expression-parser",
+    "_site/2021/09/22",
+    "_site/2021/08/09",
+    "_site/2020/09/30/full-text-search/tables.png",
+    "_site/2024/04/27/LangChain/pict/logo.png",
+    "_site/2019/08/24/linux/openvpn.md",
+    "_site/resources/img/background0.jpg",
+    "_site/resources/img/background.jpg",
+    "_site/resources/font-awesome/fonts/fontawesome-webfont.svg",
+    "_site/View.md",
+    "_site/2019/11/12/stm-hello/pict/vc4.png",
+    "_site/2019/11/12/stm-hello/pict/vc3.png",
+    "_site/2019/11/12/stm-hello/pict/vc2.png",
+    "_site/2019/11/12/stm-hello/pict/vc1.png",
+    "about.md",
+    "View.md",
     "_posts/ML/2024-04-27-LangChain.md",
     "_posts/stm/2019-11-12-stm-hello.md",
-    "_posts/ML",
-    "_posts/stm/pict/Pasted image 20240427091400.png",
     "_posts/2019-07-04-logging.md",
-    "View.md",
     "_posts/docker/2019-05-08-dev-environment.md",
     "_posts/linux/2021-09-22-bash.md",
     "Excalidraw/Drawing 2024-04-27 07.43.27.excalidraw.md",
-    "Excalidraw",
     "_posts/docker/2019-05-01-docker-cheetsheet.md",
     "_posts/2021-08-09-integration-tests.md",
     "_posts/2020-08-11-postgis.md",
     "_posts/2019-05-01-current-site.md",
-    "about.md",
-    "404.md",
-    "Pasted image 20240426132147.png",
     "_posts/signalR/2019-05-02-signalr-angular.md",
     "_posts/linux/2019-08-24-linux.md",
     "_posts/drafts/sql.md",
-    "2019/05/02/signalr-angular/resultconsole.png",
-    "2019/05/02/signalr-angular/error.png",
     "_posts/angular/angular.md"
   ]
 }
