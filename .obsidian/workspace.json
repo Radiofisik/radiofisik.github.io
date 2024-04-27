@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/ML/LangChain.md",
+                "file": "_posts/2019-05-01-current-site.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/ML/LangChain.md",
+                "file": "_posts/2019-05-01-current-site.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/ML/LangChain.md",
+                "file": "_posts/2019-05-01-current-site.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/ML/LangChain.md"
+                "file": "_posts/2019-05-01-current-site.md"
               }
             }
           }
@@ -161,8 +161,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4cee43c28f6415ae",
+  "active": "2f318f680e017d71",
   "lastOpenFiles": [
+    "_posts/ML/LangChain.md",
     "yandex_caa3084c4b6664c9.html",
     "_site/2024/04/27/LangChain/pict/logo.png",
     "404.md",
@@ -177,7 +178,6 @@
     "_site/2021/08/09/integration-tests",
     "_site/2021/07/24/expression-parser",
     "_site/2021/09/22",
-    "_site/2021/08/09",
     "_site/2020/09/30/full-text-search/tables.png",
     "_site/2019/08/24/linux/openvpn.md",
     "_site/resources/img/background0.jpg",
@@ -190,7 +190,6 @@
     "_site/2019/11/12/stm-hello/pict/vc1.png",
     "about.md",
     "View.md",
-    "_posts/ML/LangChain.md",
     "_posts/stm/2019-11-12-stm-hello.md",
     "_posts/2019-07-04-logging.md",
     "_posts/docker/2019-05-08-dev-environment.md",

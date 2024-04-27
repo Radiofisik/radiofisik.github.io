@@ -10,6 +10,9 @@ description: Давно назревала идея обновить когда-
 Для того чтоб запусить локально использовал Windows Subsystem for Linux (WSL)
 ```
 jekyll serve
+
+#update 2024 command looks like
+bundle exec jekyll serve
 ```
 Предварительно установив jekyll и обновив пакеты через `bundler update`
 
