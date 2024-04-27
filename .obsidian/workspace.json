@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/docker/2019-05-01-docker-cheetsheet.md",
+                "file": "_posts/docker/2019-05-08-dev-environment.md",
                 "mode": "source",
                 "source": true
               }
             }
+          },
+          {
+            "id": "2f318f680e017d71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "View.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/docker/2019-05-01-docker-cheetsheet.md",
+                "file": "View.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/docker/2019-05-01-docker-cheetsheet.md",
+                "file": "View.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/docker/2019-05-01-docker-cheetsheet.md"
+                "file": "View.md"
               }
             }
           }
@@ -143,20 +156,32 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "aeddc3589b573b15",
+  "active": "2f318f680e017d71",
   "lastOpenFiles": [
+    "_posts/linux/2021-09-22-bash.md",
+    "View.md",
+    "Excalidraw/Drawing 2024-04-27 07.43.27.excalidraw.md",
+    "_posts/docker/2019-05-08-dev-environment.md",
+    "Excalidraw",
+    "_posts/docker/2019-05-01-docker-cheetsheet.md",
+    "_posts/2021-08-09-integration-tests.md",
+    "_posts/2020-08-11-postgis.md",
+    "_posts/2019-05-01-current-site.md",
+    "about.md",
+    "404.md",
+    "Pasted image 20240426132147.png",
     "_posts/stm/2019-11-12-stm-hello.md",
     "_posts/signalR/2019-05-02-signalr-angular.md",
     "_posts/linux/2019-08-24-linux.md",
     "_posts/drafts/sql.md",
     "2019/05/02/signalr-angular/resultconsole.png",
     "2019/05/02/signalr-angular/error.png",
-    "_posts/docker/2019-05-01-docker-cheetsheet.md",
     "_posts/angular/angular.md",
-    "_posts/2019-07-04-logging.md",
-    "_posts/linux/2021-09-22-bash.md"
+    "_posts/2019-07-04-logging.md"
   ]
 }
