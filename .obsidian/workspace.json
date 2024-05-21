@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2019-05-01-current-site.md",
+                "file": "_posts/2024-05-21-postgres.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2019-05-01-current-site.md",
+                "file": "_posts/2024-05-21-postgres.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2019-05-01-current-site.md",
+                "file": "_posts/2024-05-21-postgres.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2019-05-01-current-site.md"
+                "file": "_posts/2024-05-21-postgres.md"
               }
             }
           }
@@ -161,8 +161,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2f318f680e017d71",
+  "active": "4cee43c28f6415ae",
   "lastOpenFiles": [
+    "_posts/2019-08-12-redis.md",
+    "_posts/2024-05-21-postgres.md",
+    "_posts/2019-05-01-current-site.md",
     "_posts/ML/LangChain.md",
     "yandex_caa3084c4b6664c9.html",
     "_site/2024/04/27/LangChain/pict/logo.png",
@@ -198,7 +201,6 @@
     "_posts/docker/2019-05-01-docker-cheetsheet.md",
     "_posts/2021-08-09-integration-tests.md",
     "_posts/2020-08-11-postgis.md",
-    "_posts/2019-05-01-current-site.md",
     "_posts/signalR/2019-05-02-signalr-angular.md",
     "_posts/linux/2019-08-24-linux.md",
     "_posts/drafts/sql.md",
