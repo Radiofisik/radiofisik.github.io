@@ -161,8 +161,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4cee43c28f6415ae",
+  "active": "2f318f680e017d71",
   "lastOpenFiles": [
+    "_posts/docker/2019-05-08-dev-environment.md",
     "_posts/2019-08-12-redis.md",
     "_posts/2024-05-21-postgres.md",
     "_posts/2019-05-01-current-site.md",
@@ -195,7 +196,6 @@
     "View.md",
     "_posts/stm/2019-11-12-stm-hello.md",
     "_posts/2019-07-04-logging.md",
-    "_posts/docker/2019-05-08-dev-environment.md",
     "_posts/linux/2021-09-22-bash.md",
     "Excalidraw/Drawing 2024-04-27 07.43.27.excalidraw.md",
     "_posts/docker/2019-05-01-docker-cheetsheet.md",
