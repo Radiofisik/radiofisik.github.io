@@ -4,11 +4,11 @@ description: Что делать если количество данных ра
 ---
 Со временем работы любой системы в ней накапливается большое количество данных, при этом наиболее используемые свежие данные, а старые же как правило нельзя удалить и обращений к ним мало, это своего рода архив. Однако эти данные лежат в общей с иттенсивно используемыми таблицах, увеличивают размет индексов и замедляют получение данных. Такую проблему можно решить секционированием.
 
-В сети есть примеры нескольких реализаций секционирования, есть несколько устаревший подход с наследованием таблиц и утилитой которая на триггерах сооздает нужные секции  https://github.com/2gis/partition_magic/blob/master/_2gis_partition_magic.sql однако для нашших целей такой подход не подошел. 
+В сети есть примеры нескольких реализаций секционирования, есть несколько устаревший подход с наследованием таблиц и утилитой которая на триггерах сооздает нужные секции  [https://github.com/2gis/partition_magic/blob/master/_2gis_partition_magic.sql](https://github.com/2gis/partition_magic/blob/master/_2gis_partition_magic.sql) однако для нашших целей такой подход не подошел. 
 
 По сути надо секционировать ряд таблиц по дате создания некоторой базовой сущности, когда мы вытягиваем все данные мы сначала вытягиваем базовую сущность отдельным запросом, потом используем дату из нее в where остальных запросов. таким образом в остальных запросах данные будут вытягиваться из одной партиции, что сократит время поиска.
 
-В документации https://postgrespro.ru/docs/postgresql/10/ddl-partitioning описан пример
+В документации [https://postgrespro.ru/docs/postgresql/10/ddl-partitioning](https://postgrespro.ru/docs/postgresql/10/ddl-partitioning) описан пример
 ```sql
 CREATE TABLE measurement (
     city_id         int not null,
@@ -84,9 +84,9 @@ VALUES
 `[23514] ERROR: no partition of relation "measurement" found for row Detail: Partition key of the failing row contains (logdate) = (2024-01-05).`
 
 ## PGpackman
-В поисках варианта для партиционирования был рассмотрен скрипт от [[Скрипт секционирования от 2Gis]] и ручной вариант описаный выше. Скрипт оказался не подходящим потому что использует условия равенства по целочисленному полю, а вручную поддерживать индексы и партиции довольно  трудозатратно и главное черевато ошибками.
+В поисках варианта для партиционирования был рассмотрен скрипт от Скрипт секционирования от 2Gis и ручной вариант описаный выше. Скрипт оказался не подходящим потому что использует условия равенства по целочисленному полю, а вручную поддерживать индексы и партиции довольно  трудозатратно и главное черевато ошибками.
 
-Для экспериментов поднимем докер контейнер https://github.com/dbsystel/postgresql-partman-container
+Для экспериментов поднимем докер контейнер [https://github.com/dbsystel/postgresql-partman-container](https://github.com/dbsystel/postgresql-partman-container)
 
 docker run ghcr.io/dbsystel/postgresql-partman
 
@@ -138,7 +138,7 @@ volumes:
 
 ```
 
-начнем эксперименты https://github.com/pgpartman/pg_partman/blob/5.0.1/doc/pg_partman_howto.md
+начнем эксперименты [https://github.com/pgpartman/pg_partman/blob/5.0.1/doc/pg_partman_howto.md](https://github.com/pgpartman/pg_partman/blob/5.0.1/doc/pg_partman_howto.md)
 ```sql
 CREATE SCHEMA partman ;
 CREATE EXTENSION pg_partman SCHEMA partman ;
@@ -184,9 +184,6 @@ CALL partman.partition_data_proc(
     , p_loop_count := 200  
     , p_interval := '6 month'  
     , p_source_table := 'public.old_nonpartitioned_mytable'
-
-
-
 ```
 
 ```sql
