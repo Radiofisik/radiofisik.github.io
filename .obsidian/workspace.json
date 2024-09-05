@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-05-21-postgres.md",
+                "file": "_posts/2024-09-05-postgres-partitioning.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-05-21-postgres.md",
+                "file": "_posts/2024-09-05-postgres-partitioning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-05-21-postgres.md",
+                "file": "_posts/2024-09-05-postgres-partitioning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-05-21-postgres.md"
+                "file": "_posts/2024-09-05-postgres-partitioning.md"
               }
             }
           }
@@ -163,9 +163,11 @@
   },
   "active": "2f318f680e017d71",
   "lastOpenFiles": [
+    "_posts/Секционирование postgres.md",
+    "_posts/2024-09-05-postgres-partitioning.md",
+    "_posts/2024-05-21-postgres.md",
     "_posts/docker/2019-05-08-dev-environment.md",
     "_posts/2019-08-12-redis.md",
-    "_posts/2024-05-21-postgres.md",
     "_posts/2019-05-01-current-site.md",
     "_posts/ML/LangChain.md",
     "yandex_caa3084c4b6664c9.html",
