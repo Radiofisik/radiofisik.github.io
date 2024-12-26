@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/embedding/2024-12.26-micam.md",
+                "file": "_posts/embedding/2024-12-26-micam.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-12.26-micam"
+              "title": "2024-12-26-micam"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/embedding/2024-12.26-micam.md",
+                "file": "_posts/embedding/2024-12-26-micam.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2024-12.26-micam"
+              "title": "Backlinks for 2024-12-26-micam"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/embedding/2024-12.26-micam.md",
+                "file": "_posts/embedding/2024-12-26-micam.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2024-12.26-micam"
+              "title": "Outgoing links from 2024-12-26-micam"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/embedding/2024-12.26-micam.md"
+                "file": "_posts/embedding/2024-12-26-micam.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2024-12.26-micam"
+              "title": "Outline of 2024-12-26-micam"
             }
           }
         ]
@@ -167,7 +167,7 @@
   "active": "4cee43c28f6415ae",
   "lastOpenFiles": [
     "_posts/2024-09-05-postgres-partitioning.md",
-    "_posts/embedding/2024-12.26-micam.md",
+    "_posts/embedding/2024-12-26-micam.md",
     "_posts/embedding",
     "_posts/docker/2019-05-08-dev-environment.md",
     "_posts/Скрипт секционирования от 2Gis.md",
