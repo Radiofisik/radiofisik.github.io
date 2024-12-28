@@ -164,10 +164,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4cee43c28f6415ae",
+  "active": "aef503e7ae608939",
   "lastOpenFiles": [
-    "_posts/2024-09-05-postgres-partitioning.md",
+    "_posts/2019-08-03-Identityserver.md",
     "_posts/embedding/2024-12-26-micam.md",
+    "_posts/2024-09-05-postgres-partitioning.md",
     "_posts/embedding",
     "_posts/docker/2019-05-08-dev-environment.md",
     "_posts/Скрипт секционирования от 2Gis.md",
@@ -210,7 +211,6 @@
     "_posts/docker/2019-05-01-docker-cheetsheet.md",
     "_posts/signalR/2019-05-02-signalr-angular.md",
     "_posts/linux/2019-08-24-linux.md",
-    "_posts/drafts/sql.md",
-    "_posts/angular/angular.md"
+    "_posts/drafts/sql.md"
   ]
 }
