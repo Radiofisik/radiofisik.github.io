@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b2bfcbd885c6dc97",
+        "id": "bf816a74dd22446c",
         "type": "tabs",
         "children": [
           {
-            "id": "aef503e7ae608939",
+            "id": "30246b430950ece8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/embedding/2024-12-26-micam.md",
+                "file": "_posts/2025-12-25-posgres-partitioning-uuid7.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-12-26-micam"
+              "title": "2025-12-25-posgres-partitioning-uuid7"
             }
           }
         ]
@@ -40,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -154,6 +155,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -164,17 +166,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "aef503e7ae608939",
+  "active": "30246b430950ece8",
   "lastOpenFiles": [
-    "_posts/2019-08-03-Identityserver.md",
-    "_posts/embedding/2024-12-26-micam.md",
+    "_posts/2021-08-09-integration-tests.md",
+    "_posts/2024-05-21-postgres.md",
     "_posts/2024-09-05-postgres-partitioning.md",
+    "_posts/2025-12-25-posgres-partitioning-uuid7.md",
+    "_posts/embedding/2024-12-26-micam.md",
+    "_posts/2019-08-03-Identityserver.md",
     "_posts/embedding",
     "_posts/docker/2019-05-08-dev-environment.md",
     "_posts/Скрипт секционирования от 2Gis.md",
     "_posts/2020-08-11-postgis.md",
-    "_posts/2021-08-09-integration-tests.md",
-    "_posts/2024-05-21-postgres.md",
     "_posts/Секционирование postgres.md",
     "_posts/2019-08-12-redis.md",
     "_posts/2019-05-01-current-site.md",
@@ -210,7 +213,6 @@
     "Excalidraw/Drawing 2024-04-27 07.43.27.excalidraw.md",
     "_posts/docker/2019-05-01-docker-cheetsheet.md",
     "_posts/signalR/2019-05-02-signalr-angular.md",
-    "_posts/linux/2019-08-24-linux.md",
-    "_posts/drafts/sql.md"
+    "_posts/linux/2019-08-24-linux.md"
   ]
 }
